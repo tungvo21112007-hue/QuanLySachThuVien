@@ -7,9 +7,7 @@ public class BAITAP {
         System.setOut(new java.io.PrintStream(System.out, true, java.nio.charset.StandardCharsets.UTF_8));
         Scanner sc = new Scanner(System.in, "UTF-8");
 
-        /* =====================================================
-           TUẦN 3: BIẾN, KIỂU DỮ LIỆU VÀ TOÁN TỬ
-        ===================================================== */
+        /*TUẦN 3: BIẾN, KIỂU DỮ LIỆU VÀ TOÁN TỬ */
 
         // ----- Bài 1: Nhập thông tin sách và hiển thị lại -----
         System.out.println("=== NHẬP THÔNG TIN SÁCH ===");
@@ -56,9 +54,7 @@ public class BAITAP {
         System.out.printf("Phí vận chuyển  : %,.0f VND%n", phiVanChuyen);
         System.out.printf("Tổng tiền nhập  : %,.0f VND%n", tongTienNhap);
 
-        /* =====================================================
-           TUẦN 4: CÂU LỆNH ĐIỀU KIỆN
-        ===================================================== */
+        /* TUẦN 4: CÂU LỆNH ĐIỀU KIỆN */
 
         // ----- Bài 1: Kiểm tra giá > 0, số lượng >= 0, năm xuất bản hợp lệ -----
         System.out.println();
