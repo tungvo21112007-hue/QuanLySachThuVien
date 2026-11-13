@@ -4,7 +4,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 // Quản lý sách trong thư viện.
-public class Test {
+public class BAITAP3 {
+    public static void main(String[] args) {
+        Test.main(args);
+    }
+}
+
+class Test {
     public static void main(String[] args) {
         System.setOut(new java.io.PrintStream(System.out, true, StandardCharsets.UTF_8));
         Scanner sc = new Scanner(System.in, "UTF-8");
