@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 // PHẦN 1: BÀI THỰC HÀNH TUẦN 7 (GIỮ NGUYÊN 100% CODE CỦA BẠN)
 
-// Lớp Sach (không dùng từ khóa public vì đã có public class Test trong cùng 1 file)
+// Lớp Sach lưu thông tin của một cuốn sách.
 class Sach {
     private String maSach;
     private String tieuDe;
@@ -70,8 +70,8 @@ class Sach {
     }
 }
 
-// Lớp chính chạy chương trình (tên file phải đặt là Test.java)
-public class Test {
+// Lớp chính của chương trình.
+public class BAITAP3 {
     public static void main(String[] args) {
         System.setOut(new java.io.PrintStream(System.out, true, StandardCharsets.UTF_8));
         Scanner sc = new Scanner(System.in, "UTF-8");
